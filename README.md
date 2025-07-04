@@ -29,6 +29,8 @@ git push origin test-terraform
 ```
 <img width="712" alt="image" src="https://github.com/user-attachments/assets/a334a6b5-ebd8-4325-8ec1-20cc84901c82" />
 
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/fff530e0-5172-4d35-a648-2cbac42b21ac" />
+
 
 <img width="965" alt="image" src="https://github.com/user-attachments/assets/07d45387-161f-4d30-a5a4-255d68efad7e" />
 

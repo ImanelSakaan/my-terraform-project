@@ -1,10 +1,9 @@
-# my-terraform-project
+# My-terraform-project
 CST8918 Hybrid-A09 Husky and GitHub Actions
 
+# ✅ Step 5: Test the GitHub Actions Workflow
 
-### What’s the goal of this Lab?
-
-To verify that:
+### What’s the goal of this part in the Lab?
 
 - GitHub Actions will **fail** when there's a formatting or syntax error in a `.tf` file.
 - And **pass** when the error is fixed.

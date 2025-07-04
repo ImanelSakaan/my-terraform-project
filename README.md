@@ -37,5 +37,33 @@ git push origin test-terraform
 <img width="713" alt="image" src="https://github.com/user-attachments/assets/ad6d2c27-d79a-4dfe-8180-ae5135c129ad" />
 
 
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/2dc9d8df-f2db-47e3-b47e-68952008cb00" />
+
+## ✅ Add Another GitHub Actions Job (Terraform Validation)
+1. **Open your GitHub Actions workflow file** (usually located at `.github/workflows/terraform.yml`).
+2. **Under the `jobs:` section, add the following job:**
+
+
+```yaml
+jobs:
+  validate_script:
+    runs-on: ubuntu-latest
+    name: terraform validate check
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.2.4
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Validate
+        run: terraform validate
+```
+
+<img width="1247" alt="image" src="https://github.com/user-attachments/assets/80cc2120-a71f-49ff-b8c6-e7ebd39e83ea" />
 
 

@@ -1,7 +1,7 @@
 # My-terraform-project
 CST8918 Hybrid-A09 Husky and GitHub Actions
 
-# ✅ Step 5: Test the GitHub Actions Workflow
+## ✅ Step 5: Test the GitHub Actions Workflow
 
 ### What’s the goal of this part in the Lab?
 
